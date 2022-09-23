@@ -1,0 +1,55 @@
+.mai{
+    .portada {
+        margin: 20px;
+        width: 95%;
+    }
+
+    .botones-inicio {
+        display: flex;
+        justify-content: space-evenly;
+
+        .bot-ini {
+            background-color: $mainColor;
+            color: $secundaryColor;
+            column-width: 200px;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        .bot-ini a:hover{
+            background-color: $alternativecColor;
+        }
+    }
+
+    .novedades{
+        background-color: $mainColor;
+        color: $secundaryColor;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .video{
+        margin: 30px;
+    }
+    
+    .tituu{
+        background-color: $mainColor;
+        color: $secundaryColor;
+        padding: 5px;
+        width: 35%;
+        text-align: center;
+        border-radius: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

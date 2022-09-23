@@ -1,0 +1,46 @@
+.hea{
+    background-image: radial-gradient(circle at 0% 0%, #ff7809 0, #ff6504 25%, #ff4c00 50%, #f62c00 75%, #ef0006 100%);
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    grid-area: hea;
+
+    .logo img{
+        width: 80px;
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        color: $secundaryColor;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    .navbar{
+        .menu {
+            display: flex;
+            list-style-type: none;
+            gap: 30px;
+            align-items: center;
+            height: 100%;
+            margin-right: 40px;
+            
+            
+            .items
+                { a{
+                  color: aliceblue;
+                   text-decoration: none;}
+            
+    
+                  a:hover{
+                     text-decoration: underline;
+                   }
+                }}
+          
+    }
+
+}
